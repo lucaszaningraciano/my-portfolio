@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/cfdc4dc9e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <div class="background" href="#inicio">
+      <nav>
+        <h2>Portfó<span>lio</span></h2>
+        <ul class="cabeçalho-link">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mim">Sobre Mim</a></li>
+          <li><a href="#serviços">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+        <!--cabeçalho-link-->
+        <a href="#" class="btn">Subscribe</a>
+      </nav>
+
+      <div class="main">
+        <h4>Olá, meu nome é</h4>
+        <h1>Lucas <span>Zanin</span></h1>
+        <h3>Eu sou um desenvolvedor web</h3>
+        <div class="container-btn">
+          <form>
+            <input
+              type="email"
+              nome="email"
+              id="mail"
+              placeholder="Envie o seu Email"
+            />
+            <input type="submit" nome="submit" value="Começar" />
+          </form>
+        </div>
+        <!--container-btn-->
+      </div>
+      <!--main-->
+      <aside>
+        <div class="icon-menu" onclick="abrirmenu()">
+          <div class="menu"><ion-icon name="menu-outline"></ion-icon></div>
+          <!--menu-->
+        </div>
+        <!--icon-menu-->
+        <div id="barra-menu">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mim">Sobre Mim</a></li>
+            <li><a href="#serviços">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <a href="#" class="C-icon">Subscribe</a>
+          </ul>
+        </div>
+        <!--barra-menu-->
+      </aside>
+    </div>
+    <!--background-->
+
+    <!---section-sobre-mim-inicio-->
+    <section class="background-color-sobre" id="sobre-mim">
+      <div class="Main-sobre">
+        <img src="./images/FOTOMINHA.png" alt="photo" />
+        <div class="text-sobre">
+          <h2>Sobre Mim</h2>
+          <h5>Desenvolvedor Front-<span>End</span></h5>
+          <p>
+            Olá, muito prazer, sou Desenvolvedor Front-End com conhecimentos em
+            HTML, CSS, Javascript, NodeJs, Git e Github. Sou apaixonado por
+            tecnologia desde os 5 anos de idade. Desde que iniciei minha
+            carreira profissional, notei que sou apaixonado por desenvolver
+            soluções para os meus clientes. Atualmente, eu trabalho como Gerente
+            Comercial em uma empresa localizada em Porto Alegre. Tenho como
+            objetivo profissional a criação de interface de sites, aplicativos e
+            jogos.
+          </p>
+          <button class="button">Vamos conversar</button>
+        </div>
+        <!--text-sobre-->
+      </div>
+      <!--Main-sobre-->
+    </section>
+    <!--background-color-sobre-->
+
+    <!---section-sobre-mim-final-->
+
+    <!--meus-serviços-inicio-->
+    <div class="container-serviços" id="serviços">
+      <div class="title">
+        <h2>Meus Serviços</h2>
+      </div>
+      <!--title-->
+      <div class="caixa">
+        <div class="card">
+          <img
+            class="img-card"
+            src="./images/icons8-internet-50.png"
+            alt="sites"
+          />
+          <h5>Desenvolvimento de Sites</h5>
+          <p>
+            Ofereço as melhores soluções personalizadas para o desenvolvimento
+            do seu site, utilizando as mais modernas tecnologias Front-End.
+            Todos os meus sites são desenvolvidos de maneira responsiva,
+            adaptando-se a qualquer tela - Sendo ela Desktop ou Mobile.
+          </p>
+          <button class="btn">Ler Mais</button>
+        </div>
+        <!--card-->
+        <div class="card">
+          <img
+            class="img-card"
+            src="./images/icons8-software-64.png"
+            alt="softwares"
+          />
+          <h5>Desenvolvimento de Sistemas</h5>
+          <p>
+            Desenvolvo sistemas personalizados com o objetivo de atender as
+            necessidades específicas dos clientes. Dessa forma, eu garanto que
+            cada programa é desenvolvido de maneira única e exclusiva.
+          </p>
+          <button class="btn">Ler Mais</button>
+        </div>
+        <!--card-->
+        <div class="card">
+          <img
+            class="img-card"
+            src="./images/icons8-uma-vez-senha-50.png"
+            alt="app"
+          />
+          <h5>Desenvolvimento de Aplicativos</h5>
+          <p>
+            Implementação de aplicativos para Android e iOS, utilizando as
+            melhores tecnologias de desenvolvimento. O processo de
+            desenvolvimento do aplicativo para sua empresa é feita de maneira
+            ágil e segura.
+          </p>
+          <button class="btn">Ler Mais</button>
+        </div>
+        <!--card-->
+      </div>
+      <!--caixas-->
+    </div>
+    <!--container-serviços-->
+
+    <!--meus-serviços-final-->
+
+    <!--me-contate-inicio-->
+
+    <div class="me-contate" id="contato">
+      <p>Me contate para desenvolver um lindo site para você e sua empresa!</p>
+      <button class="btn">Enviar mensagem</button>
+    </div>
+    <!--me-contate-->
+
+    <!--me-contate-final-->
+
+    <footer class="footer">
+      <h6>Lucas Zanin</h6>
+      <p>Minhas redes sociais:</p>
+      <div class="redes-sociais">
+        <a href="https://www.instagram.com/lucas.zaning/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/lucas-zanin-925750245/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/lucaszaningraciano"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <!--redes-sociais-->
+
+      <div class="end">
+        <p>CopyRight By Lucas Zanin</p>
+      </div>
+      <!--end-->
+    </footer>
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
